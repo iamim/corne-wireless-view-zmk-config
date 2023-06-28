@@ -14,11 +14,13 @@
         combo-kl-enter {
             bindings = <&kp ENTER>;
             key-positions = <20 21>;
+            layers = <0>;
         };
 
         combo-jk-esc {
             bindings = <&kp ESC>;
             key-positions = <19 20>;
+            layers = <0>;
         };
     };
 
@@ -48,9 +50,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB  &trans  &trans    &trans  &trans            &trans              &trans        &kp N7        &kp N8        &kp N9  &trans  &kp BSPC
-&kp LCTRL  &trans  &trans    &trans  &trans            &trans              &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans
-&kp LSHFT  &trans  &trans    &trans  &trans            &trans     &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans
+  &kp TAB  &trans  &trans    &trans  &trans            &trans              &trans        &kp N7        &kp N8        &kp N9           &trans  &kp BSPC
+&kp LCTRL  &trans  &trans    &trans  &trans            &trans              &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6           &trans    &trans
+&kp LSHFT  &trans  &trans    &trans  &trans            &trans     &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_0    &trans
                            &kp LGUI  &trans  &mt LSHIFT SPACE    &mt RSHIFT SPACE        &trans      &kp RALT
             >;
         };
