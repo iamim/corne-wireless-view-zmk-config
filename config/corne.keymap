@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)         &kp LG(T)              &trans        &kp N7        &kp N8        &kp N9           &trans  &kp BSPC
-&kp LCTRL  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)         &kp LG(G)              &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6           &trans    &trans
-&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)         &kp LG(B)     &kp KP_NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_0    &trans
-                                  &kp LALT     &trans  &mt LSHIFT SPACE    &mt RSHIFT SPACE        &trans      &kp RGUI
+  &kp TAB  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)         &kp LG(T)              &trans             &kp N7        &kp N8        &kp N9           &trans  &kp BSPC
+&kp LCTRL  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)         &kp LG(G)              &trans       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6           &trans    &trans
+&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)         &kp LG(B)     &kp KP_NUMBER_0       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_0    &trans
+                                  &kp LALT     &trans  &mt LSHIFT SPACE    &mt RSHIFT SPACE  &kp LG(BACKSPACE)      &kp RGUI
             >;
         };
 
