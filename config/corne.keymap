@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -77,10 +78,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL         &kp DOLLAR         &trans            &kp GRAVE  &kp SEMICOLON  &kp BACKSLASH  &trans  &trans
-&kp LCTRL  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &trans             &kp LEFT          &kp DOWN   &kp UP         &kp RIGHT      &trans  &trans
-&kp LSHFT  &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &trans             &trans            &trans     &trans         &trans         &trans  &trans
-                                                &kp LALT               &mt LGUI TAB      &mt LSHFT SPACE    &mt RSHIFT SPACE  &trans     &kp RGUI
+&kp TAB    &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EQUAL         &kp DOLLAR         &trans            &kp GRAVE   &kp SEMICOLON  &kp BACKSLASH  &trans  &trans
+&kp LCTRL  &kp LESS_THAN  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GREATER_THAN  &trans             &kp LEFT          &kp DOWN    &kp UP         &kp RIGHT      &trans  &trans
+&kp LSHFT  &trans         &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS         &trans             &bt BT_CLR        &bt BT_NXT  &bt BT_PRV     &trans         &trans  &trans
+                                                &kp LALT               &mt LGUI TAB      &mt LSHFT SPACE    &mt RSHIFT SPACE  &trans      &kp RGUI
             >;
         };
     };
