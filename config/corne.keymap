@@ -54,7 +54,7 @@
             >;
         };
 
-        lower_layer {
+        left_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -62,14 +62,14 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)           &kp LG(Y)         &kp N7              &kp N8        &kp N9        &kp LG(P)        &kp BSPC
-&kp LCTRL  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)           &kp LG(H)         &kp NUMBER_4        &kp NUMBER_5  &kp NUMBER_6  &trans           &trans
-&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)           &kp PERIOD        &kp NUMBER_1        &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_0  &trans
-                                 &kp LALT   &trans     &mt LSHIFT SPACE    &mt RSHIFT SPACE  &mt RGUI BACKSPACE  &kp RCTRL
+&kp TAB    &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)           &kp LG(Y)         &kp N7             &kp N8        &kp N9        &kp LG(P)        &kp BSPC
+&kp LCTRL  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)           &kp LG(H)         &kp NUMBER_4       &kp NUMBER_5  &kp NUMBER_6  &trans           &trans
+&kp LSHFT  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)           &kp PERIOD        &kp NUMBER_1       &kp NUMBER_2  &kp NUMBER_3  &kp KP_NUMBER_0  &trans
+                                 &kp LALT   &trans     &mt LSHIFT SPACE    &mt RSHIFT SPACE  &kp LG(BACKSPACE)  &kp RCTRL
             >;
         };
 
-        raise_layer {
+        right_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
